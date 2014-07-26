@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\socket">
+      <UniqueIdentifier>{030df5e7-070c-4d65-aeab-2fdb75dd02e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\misc">
+      <UniqueIdentifier>{f23098c3-7537-4c86-bbe9-fc448dae95c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\user">
+      <UniqueIdentifier>{e63bcf3f-af30-41a5-acf2-87dfdbef748c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\layer">
+      <UniqueIdentifier>{e8afd1d5-9f68-420a-bb89-0fd8146755cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\scene">
+      <UniqueIdentifier>{d8662ef1-a545-4462-9b79-b7c5bbb2c03f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\lua">
+      <UniqueIdentifier>{66a75e44-1848-49b7-8156-15c2249710e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\socket\CPacket.cpp">
+      <Filter>Classes\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\socket\CTCPMng.cpp">
+      <Filter>Classes\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\user\CClient.cpp">
+      <Filter>Classes\user</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\socket\CMsgHelper.cpp">
+      <Filter>Classes\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\layer\CNavigationLy.cpp">
+      <Filter>Classes\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\CMainScene.cpp">
+      <Filter>Classes\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\misc\CConfig.cpp">
+      <Filter>Classes\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\misc\CButton.cpp">
+      <Filter>Classes\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lapi.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lauxlib.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lbaselib.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lbitlib.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lcode.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lcorolib.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lctype.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\ldblib.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\ldebug.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\ldo.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\ldump.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lfunc.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lgc.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\linit.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\liolib.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\llex.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lmathlib.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lmem.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\loadlib.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lobject.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lopcodes.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\loslib.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lparser.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lstate.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lstring.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lstrlib.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\ltable.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\ltablib.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\ltm.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lundump.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lvm.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\lua\lzio.c">
+      <Filter>Classes\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\CSceneMng.cpp">
+      <Filter>Classes\scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\socket\CPacket.h">
+      <Filter>Classes\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\socket\CTCPMng.h">
+      <Filter>Classes\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\misc\list.h">
+      <Filter>Classes\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\user\CClient.h">
+      <Filter>Classes\user</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\user\CUserIF.h">
+      <Filter>Classes\user</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\socket\CMsgHelper.h">
+      <Filter>Classes\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\layer\CNavigationLy.h">
+      <Filter>Classes\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\CMainScene.h">
+      <Filter>Classes\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\misc\CConfig.h">
+      <Filter>Classes\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\misc\CButton.h">
+      <Filter>Classes\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\lapi.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\lauxlib.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\lcode.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\lctype.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\ldebug.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\ldo.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\lfunc.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\lgc.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\llex.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\llimits.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\lmem.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\lobject.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\lopcodes.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\lparser.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\lstate.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\lstring.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\ltable.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\ltm.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\lua.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\lua.hpp">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\luaconf.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\lualib.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\lundump.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\lvm.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\lua\lzio.h">
+      <Filter>Classes\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\CSceneMng.h">
+      <Filter>Classes\scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Classes\lua\Makefile">
+      <Filter>Classes\lua</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,66 @@
+﻿生成启动时间为 2014/7/24 17:20:56。
+     1>项目“D:\GitHub\cocos2d-x-2.2.4\projects\douxingyun\proj.win32\douxingyun.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"D:\GitHub\cocos2d-x-2.2.4\projects\douxingyun\proj.win32\..\..\..\cocos2dx" /I"D:\GitHub\cocos2d-x-2.2.4\projects\douxingyun\proj.win32\..\..\..\cocos2dx\include" /I"D:\GitHub\cocos2d-x-2.2.4\projects\douxingyun\proj.win32\..\..\..\cocos2dx\kazmath\include" /I"D:\GitHub\cocos2d-x-2.2.4\projects\douxingyun\proj.win32\..\..\..\cocos2dx\platform\win32" /I"D:\GitHub\cocos2d-x-2.2.4\projects\douxingyun\proj.win32\..\..\..\cocos2dx\platform\third_party\win32" /I"D:\GitHub\cocos2d-x-2.2.4\projects\douxingyun\proj.win32\..\..\..\cocos2dx\platform\third_party\win32\OGLES" /I"D:\GitHub\cocos2d-x-2.2.4\projects\douxingyun\proj.win32\..\..\..\external" /I"D:\GitHub\cocos2d-x-2.2.4\projects\douxingyun\proj.win32\..\..\..\external\chipmunk\include\chipmunk" /I"D:\GitHub\cocos2d-x-2.2.4\projects\douxingyun\proj.win32\..\..\..\CocosDenshion\include" /I"D:\GitHub\cocos2d-x-2.2.4\projects\douxingyun\proj.win32\..\..\..\scripting\lua\lua" /I"D:\GitHub\cocos2d-x-2.2.4\projects\douxingyun\proj.win32\..\..\..\extensions" /I..\Classes /I.. /I..\Classes\socket /I..\Classes\user /I..\Classes\misc /I..\Classes\scene /I..\Classes\layer /I..\Classes\lua /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\misc\CButton.cpp
+         CButton.cpp
+       PreLinkEvent:
+         if not exist "D:\GitHub\cocos2d-x-2.2.4\Debug.win32\" mkdir "D:\GitHub\cocos2d-x-2.2.4\Debug.win32\"
+         xcopy /Y /Q "D:\GitHub\cocos2d-x-2.2.4\projects\douxingyun\proj.win32\..\..\..\external\libwebsockets\win32\lib\*.*" "D:\GitHub\cocos2d-x-2.2.4\Debug.win32\"
+         :VCEnd
+         复制了 2 个文件
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GitHub\cocos2d-x-2.2.4\Debug.win32\douxingyun.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\GitHub\cocos2d-x-2.2.4\Debug.win32\\" libExtensions.lib libcocos2d.lib libCocosDenshion.lib opengl32.lib glew32.lib libBox2d.lib libchipmunk.lib libcurl_imp.lib pthreadVCE2.lib websockets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\GitHub\cocos2d-x-2.2.4\Debug.win32\douxingyun.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GitHub\cocos2d-x-2.2.4\Debug.win32\douxingyun.lib" /MACHINE:X86 /SAFESEH Debug.win32\AppDelegate.obj
+         Debug.win32\CNavigationLy.obj
+         Debug.win32\lapi.obj
+         Debug.win32\lauxlib.obj
+         Debug.win32\lbaselib.obj
+         Debug.win32\lbitlib.obj
+         Debug.win32\lcode.obj
+         Debug.win32\lcorolib.obj
+         Debug.win32\lctype.obj
+         Debug.win32\ldblib.obj
+         Debug.win32\ldebug.obj
+         Debug.win32\ldo.obj
+         Debug.win32\ldump.obj
+         Debug.win32\lfunc.obj
+         Debug.win32\lgc.obj
+         Debug.win32\linit.obj
+         Debug.win32\liolib.obj
+         Debug.win32\llex.obj
+         Debug.win32\lmathlib.obj
+         Debug.win32\lmem.obj
+         Debug.win32\loadlib.obj
+         Debug.win32\lobject.obj
+         Debug.win32\lopcodes.obj
+         Debug.win32\loslib.obj
+         Debug.win32\lparser.obj
+         Debug.win32\lstate.obj
+         Debug.win32\lstring.obj
+         Debug.win32\lstrlib.obj
+         Debug.win32\ltable.obj
+         Debug.win32\ltablib.obj
+         Debug.win32\ltm.obj
+         Debug.win32\lundump.obj
+         Debug.win32\lvm.obj
+         Debug.win32\lzio.obj
+         Debug.win32\CButton.obj
+         Debug.win32\CConfig.obj
+         Debug.win32\CMainScene.obj
+         Debug.win32\CSceneMng.obj
+         Debug.win32\CMsgHelper.obj
+         Debug.win32\CPacket.obj
+         Debug.win32\CTCPMng.obj
+         Debug.win32\CClient.obj
+         Debug.win32\main.obj
+         "D:\GitHub\cocos2d-x-2.2.4\Debug.win32\libcocos2d.lib"
+         "D:\GitHub\cocos2d-x-2.2.4\Debug.win32\libCocosDenshion.lib"
+         "D:\GitHub\cocos2d-x-2.2.4\Debug.win32\libExtensions.lib"
+         "D:\GitHub\cocos2d-x-2.2.4\Debug.win32\libBox2D.lib"
+         "D:\GitHub\cocos2d-x-2.2.4\Debug.win32\libchipmunk.lib"
+     1>AppDelegate.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         douxingyun.vcxproj -> D:\GitHub\cocos2d-x-2.2.4\Debug.win32\douxingyun.exe
+     1>已完成生成项目“D:\GitHub\cocos2d-x-2.2.4\projects\douxingyun\proj.win32\douxingyun.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.97
